@@ -1,204 +1,204 @@
 /* Basic Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Base Styles */
-  body {
-    font-family: 'Roboto', sans-serif;
-    background: #fff;
-    color: #333;
-    line-height: 1.6;
-    transition: background 0.3s, color 0.3s;
-  }
-  .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-  }
-  
-  /* Header */
-  header {
-    background: #fff;
-    padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-  }
-  .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .logo a {
-    text-decoration: none;
-    font-size: 1.8em;
-    font-weight: 700;
-    color: #e63946;
-  }
-  .nav-links {
-    list-style: none;
-    display: flex;
-  }
-  .nav-links li {
-    margin-left: 20px;
-  }
-  .nav-links a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-    transition: color 0.3s;
-  }
-  .nav-links a:hover {
-    color: #e63946;
-  }
-  .dark-toggle {
-    background: none;
-    border: none;
-    font-size: 1em;
-    cursor: pointer;
-    color: #333;
-    margin-left: 20px;
-  }
-  
-  /* Hero Section */
-  .hero {
-    height: 100vh;
-    background: url('https://source.unsplash.com/1600x900/?cybersecurity') no-repeat center center/cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0,0,0,0.5);
-  }
-  .hero-content {
-    position: relative;
-    color: #fff;
-    z-index: 1;
-  }
-  .hero-content h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-  }
-  .hero-content p {
-    font-size: 1.5em;
-    margin-bottom: 30px;
-  }
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #e63946;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s;
-  }
-  .btn:hover {
-    background: #d62828;
-  }
-  
-  /* Section Styles */
-  .section {
-    padding: 80px 0;
-    text-align: center;
-  }
-  .section h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #e63946;
-  }
-  .section p {
-    max-width: 800px;
-    margin: auto;
-    font-size: 1.1em;
-  }
-  
-  /* Card Grid */
-  .card-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 40px;
-  }
-  .card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    width: 300px;
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-  .card h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  .card p {
-    font-size: 1em;
-  }
-  
-  /* Skills List */
-  .skills-list {
-    list-style: none;
-    max-width: 600px;
-    margin: 20px auto;
-    text-align: left;
-  }
-  .skills-list li {
-    font-size: 1.1em;
-    margin: 10px 0;
-  }
-  
-  /* Footer */
-  footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  /* Dark Mode */
-  body.dark-mode {
-    background: #121212;
-    color: #eee;
-  }
-  body.dark-mode header {
-    background: #1a1a1a;
-  }
-  body.dark-mode .logo a,
-  body.dark-mode .nav-links a,
-  body.dark-mode .dark-toggle {
-    color: #eee;
-  }
-  body.dark-mode .nav-links a:hover {
-    color: #e63946;
-  }
-  body.dark-mode .hero-content h1,
-  body.dark-mode .hero-content p {
-    color: #eee;
-  }
-  body.dark-mode .section h2 {
-    color: #e63946;
-  }
-  body.dark-mode .card {
-    background: #1e1e1e;
-    border-color: #333;
-  }
-  body.dark-mode footer {
-    background: #000;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #e63946;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+.nav-links li {
+  margin-left: 20px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.nav-links a:hover {
+  color: #e63946;
+}
+.dark-toggle {
+  background: none;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  color: #333;
+  margin-left: 20px;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url('https://source.unsplash.com/1600x900/?cybersecurity') no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+}
+.hero-content {
+  position: relative;
+  color: #fff;
+  z-index: 1;
+}
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.hero-content p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #e63946;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #d62828;
+}
+
+/* Section Styles */
+.section {
+  padding: 80px 0;
+  text-align: center;
+}
+.section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #e63946;
+}
+.section p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1em;
+}
+
+/* Card Grid */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 1em;
+}
+
+/* Skills List */
+.skills-list {
+  list-style: none;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: left;
+}
+.skills-list li {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background: #121212;
+  color: #eee;
+}
+body.dark-mode header {
+  background: #1a1a1a;
+}
+body.dark-mode .logo a,
+body.dark-mode .nav-links a,
+body.dark-mode .dark-toggle {
+  color: #eee;
+}
+body.dark-mode .nav-links a:hover {
+  color: #e63946;
+}
+body.dark-mode .hero-content h1,
+body.dark-mode .hero-content p {
+  color: #eee;
+}
+body.dark-mode .section h2 {
+  color: #e63946;
+}
+body.dark-mode .card {
+  background: #1e1e1e;
+  border-color: #333;
+}
+body.dark-mode footer {
+  background: #000;
+}
